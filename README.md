@@ -2,7 +2,7 @@
 
 <img src="art/oclogo.png" alt="drawing" width="150"/>
 
-Hello there! This repo intent to host resources for **OC students** for their journey to become an **android developer**.
+Hello there! This repo hosts resources for **OC students**.
 
 ## Content
 

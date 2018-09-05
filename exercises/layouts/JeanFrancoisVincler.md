@@ -266,7 +266,7 @@
 	* ConstraintLayout
 		* TextView
 		* TextView
-*LinearLayout
+* LinearLayout
 	*ImageView
 	*ImageView
 	*ImageView

@@ -211,8 +211,70 @@
 ### #13
 <img src="14.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* TextView
+* RelativeLayout
+	* TextView
+* LinearLayout
+	* TextView
+* RelativeLayout
+	* TextView
+* RelativeLayout
+	* TextView
+* ConstraintLayout
+	* ImageView
+* LinearLayout
+	* TextView
+	* TextView
+* LinearLayout
+	* LinearLayout
+		* ImageView
+		* TextView
+		* TextView
+	* ConstraintLayout
+		* TextView
+		* TextView
+* LinearLayout
+	* LinearLayout
+		* ImageView
+		* TextView
+		* TextView
+	* ConstraintLayout
+		* TextView
+		* TextView
+* LinearLayout
+	* LinearLayout
+		* ImageView
+		* TextView
+		* TextView
+	* ConstraintLayout
+		* TextView
+		* TextView
+* LinearLayout
+	* LinearLayout
+		* ImageView
+		* TextView
+		* TextView
+	* ConstraintLayout
+		* TextView
+		* TextView
+* LinearLayout
+	* LinearLayout
+		* ImageView
+		* TextView
+		* TextView
+	* ConstraintLayout
+		* TextView
+		* TextView
+*LinearLayout
+	*ImageView
+	*ImageView
+	*ImageView
+* ConstraintLayout
+	* TextView
+	* TextView
+	* TextView
+	
+
 
 

@@ -203,9 +203,10 @@
 ### #12
 <img src="13.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* TextView
+	* TextView
+	
 
 ### #13
 <img src="14.png" alt="drawing" width="200"/>

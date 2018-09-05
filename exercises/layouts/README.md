@@ -31,9 +31,16 @@
 ### #2
 <img src="3.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* Button
+	* Button
+	* Button
+	* Button
+	* Button
+	* Button
+	* Button
+	* Button
+
 
 ### #3
 <img src="4.png" alt="drawing" width="200"/>

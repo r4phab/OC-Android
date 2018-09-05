@@ -152,9 +152,37 @@
 ### #10
 <img src="11.png" alt="drawing" width="200"/>
 
-```
-*
-```
+* LinearLayout
+	* Button
+	* Button
+	* Button
+* LinearLayout
+	* Button
+	* Button
+* LinearLayout
+	* ImageView
+	* TextView
+	* TextView
+* LinearLayout
+	* ImageView
+	
+* LinearLayout
+	* ImageView
+* RelativeLayout
+	* TextView
+	* TextView
+	* TextView
+* LinearLayout
+	* TextView
+	* TextView
+	* TextView
+* LinearLayout
+	* Button
+
+
+	
+
+
 
 ### #11
 <img src="12.png" alt="drawing" width="200"/>

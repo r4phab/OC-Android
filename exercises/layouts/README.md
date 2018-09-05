@@ -45,7 +45,7 @@
 ### #3
 <img src="4.png" alt="drawing" width="200"/>
 
-* LinearLayout
+* ConstraintLayout
 	* ImageView
 	* TextView
 * LinearLayout
@@ -56,9 +56,18 @@
 ### #4
 <img src="5.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* ImageView
+	* TextView
+	* TextView
+* LinearLayout
+	* Button
+	* Button
+LinearLayout
+	* Button
+	* Button
+	* Button
+		
 
 ### #5
 <img src="6.png" alt="drawing" width="200"/>

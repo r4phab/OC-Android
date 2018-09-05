@@ -104,9 +104,21 @@
 ### #7
 <img src="8.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* TextView
+* LinearLayout
+	* Edittext
+	* Edittext
+	* Edittext
+* LinearLayout
+	* Button
+* LinearLayout
+	* ImageView
+	* TextView
+	
+
+
+
 
 ### #8
 <img src="9.png" alt="drawing" width="200"/>

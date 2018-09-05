@@ -22,9 +22,11 @@
 ### #1
 <img src="2.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* ImageView
+	* TextView
+	* Button
+
 
 ### #2
 <img src="3.png" alt="drawing" width="200"/>

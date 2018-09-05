@@ -63,7 +63,7 @@
 * LinearLayout
 	* Button
 	* Button
-LinearLayout
+* LinearLayout
 	* Button
 	* Button
 	* Button
@@ -72,9 +72,22 @@ LinearLayout
 ### #5
 <img src="6.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* ConstraintLayout
+	* ImageView
+* LinearLayout
+	* Button
+* LinearLayout
+	* Button
+	* Button
+* LinearLayout
+	* Button
+* LinearLayout
+	* Button
+	* Button
+* LinearLayout
+	* ImageView
+	* Button
+
 
 ### #6
 <img src="7.png" alt="drawing" width="200"/>

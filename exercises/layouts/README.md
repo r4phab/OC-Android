@@ -45,9 +45,13 @@
 ### #3
 <img src="4.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* ImageView
+	* TextView
+* LinearLayout
+	* Button
+	* Button
+
 
 ### #4
 <img src="5.png" alt="drawing" width="200"/>

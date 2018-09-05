@@ -123,9 +123,17 @@
 ### #8
 <img src="9.png" alt="drawing" width="200"/>
 
-```
-* 
-```
+* LinearLayout
+	* TextView
+	* ImageView
+	* TextView
+	* ImageView
+* LinearLayout
+	* Button
+	* Button
+	* Button
+
+	
 
 ### #9
 <img src="10.png" alt="drawing" width="200"/>

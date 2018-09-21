@@ -15,10 +15,13 @@ date: 2018-08-29 11:41
 objective: Pratiquer un métier passionnant
 short_description: J'aime créer, apprendre des choses, et manger des sushis :-)
 
-# don't touch that
-template: students
+# max 500 characters
 description:
-    Mon objectif sur le long terme est de devenir développeur d'applications IOS. Cette reconversion est essentielle pour me donner un second souffle dans ma carrière professionnelle et pouvoir enfin travailler dans un domaine qui me tient à coeur.
+	Je m'appelle Jean-François et je suis actuellement la formation 
+	OpenClassrooms de développeur d'application Android. Je réside 
+	actuellement à Montpellier et j'apprécie le climat et la 
+	proximité des plages ! J'espère devenir développeur en 2019
+	et trouver un poste de salarié ou travailler en freelance. 
 
 # image must be located in content/images/students
 # name should be the same as this file. Eg: celinemartinet.png

@@ -41,6 +41,6 @@ projects:
   - title: Présentez-vous !
     description: Je suis actuellement la formation de développeur d'application android.
     image: jeanfrancois34/1.png
-    link: https://www.linkedin.com/in/jean-fran%C3%A7ois-vincler-837450154/
+    link: https://www.google.com
     finished: true
 ---

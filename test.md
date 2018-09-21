@@ -4,25 +4,34 @@
 # Example: https://openclassrooms.com/membres/celinemartinet
 # must be the name of your file. If file name is celinemartinet.md, title is celinemartinet.
 # lowercase, no blank space, Capital case or special character.
-title: jeanfrancois13
+title: jeanfrancois34
 
 # First name or full name
-name: Jean-François
-date: 2018-02-14 17:54
+name: jeanfrancois34
+date: 2018-08-29 11:41
 
 # One line.
 # If you need more space, go to the next line and add 4 spaces on the left, as in 'description'.
-objective: Le temps de la reconversion est venu pour devenir développeur d'applications !
-short_description: J'aime la technologie et tout ce qui s'en rapproche mais aussi le cinéma, l'automobile et les voyages.
+objective: Pratiquer un métier passionnant
+
+# max 100 characters
+short_description: J'aime créer, apprendre des choses, et manger des sushis :-)
 
 # don't touch that
 template: students
-description:
-    Mon objectif sur le long terme est de devenir développeur d'applications IOS. Cette reconversion est essentielle pour me donner un second souffle dans ma carrière professionnelle et pouvoir enfin travailler dans un domaine qui me tient à coeur.
 
+# max 500 characters
+description:
+	Je m'appelle Jean-François et je suis actuellement la formation 
+	OpenClassrooms de développeur d'application Android. Je réside 
+	actuellement à Montpellier et j'apprécie le climat et la 
+	proximité des plages ! J'espère devenir développeur en 2019
+	et trouver un poste de salarié ou travailler en freelance. 
+ 
 # image must be located in content/images/students
 # name should be the same as this file. Eg: celinemartinet.png
-image: jeanfrancois13.jpg
+# max size: 200ko
+image: jeanfrancois34.jpg
 
 # Change this to True when you do you pull request.
 public: True

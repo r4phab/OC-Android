@@ -12,7 +12,7 @@ date: 2018-02-14 17:54
 
 # One line.
 # If you need more space, go to the next line and add 4 spaces on the left, as in 'description'.
-objective: Le temps de la reconversion est venu pour devenir développeur d'applications !
+objective: Pratiquer un métier passionnant
 short_description: J'aime créer, apprendre des choses, et manger des sushis :-)
 
 # don't touch that

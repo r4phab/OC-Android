@@ -33,8 +33,8 @@ public: true
 
 # You need to keep the exact same structure for each new project.
 projects:
-  - title: Présentez-vous !
-    description: Je suis actuellement la formation de développeur d'application android.
+  - title: title
+    description: desc
     image: jeanfrancois34/1.png
     link: https://www.google.com
     finished: true

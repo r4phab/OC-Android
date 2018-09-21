@@ -11,7 +11,7 @@ date: 2018-08-29 11:41
 
 # One line.
 # If you need more space, go to the next line and add 4 spaces on the left, as in 'description'.
-objective: Pratiquer un métier passionnant
+objective: obj
 
 # max 100 characters
 short_description: Coucou

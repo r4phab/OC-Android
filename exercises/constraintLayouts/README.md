@@ -52,35 +52,68 @@
 <img src="1.png" alt="drawing" width="200"/>
 
 ```
-* 
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+</android.support.constraint.ConstraintLayout>
 ```
 
 ### #2
 <img src="2.png" alt="drawing" width="200"/>
 
 ```
-* 
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+</android.support.constraint.ConstraintLayout>
 ```
 
 ### #3
 <img src="3.png" alt="drawing" width="200"/>
 
 ```
-* 
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+</android.support.constraint.ConstraintLayout>
 ```
 
 ### #4
 <img src="4.png" alt="drawing" width="200"/>
 
 ```
-* 
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+</android.support.constraint.ConstraintLayout>
 ```
 
 ### #5
 <img src="5.png" alt="drawing" width="200"/>
 
 ```
-* 
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+</android.support.constraint.ConstraintLayout>
 ```
-
-

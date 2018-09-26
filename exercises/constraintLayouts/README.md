@@ -14,8 +14,9 @@
 
 ### Example :
 
+```
 <img src="0.png" alt="drawing" width="200"/>
-
+```
 ### Answer :
 
 ```

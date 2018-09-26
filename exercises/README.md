@@ -5,4 +5,5 @@
 ## Content
 
 > • **[Layouts](https://github.com/r4phab/OC-Android/tree/master/exercises/layouts)** : Identify layout hierarchies
-> • **[ConstraintLayouts](https://github.com/r4phab/OC-Android/tree/master/exercises/contraintlayouts)** : Reproduce screenshots with actuel views using constraintlayouts
+
+> • **[ConstraintLayouts](https://github.com/r4phab/OC-Android/tree/master/exercises/contraintLayouts)** : Reproduce screenshots with actuel views using constraintlayouts

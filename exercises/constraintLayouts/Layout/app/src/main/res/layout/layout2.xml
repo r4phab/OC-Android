@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#42F46B"
+        app:layout_constraintBottom_toTopOf="@+id/view22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F44245"
+        app:layout_constraintBottom_toTopOf="@+id/view23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view21"
+        app:layout_constraintWidth_percent="0.75" />
+
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#42F46B"
+        app:layout_constraintBottom_toTopOf="@id/view24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view22"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <View
+        android:id="@+id/view24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F44245"
+        app:layout_constraintBottom_toTopOf="@+id/view25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view23"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/view25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#42F46B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view24"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+</android.support.constraint.ConstraintLayout>

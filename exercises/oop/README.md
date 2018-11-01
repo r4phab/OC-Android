@@ -17,7 +17,7 @@
 2 -  Créer une classe Car (voiture) avec les attributs suivants :
 
 ```
-• name
+• name (String)
 • color (String)
 • kilometers (int)
 • brand (CarBrand)

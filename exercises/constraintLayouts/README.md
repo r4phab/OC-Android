@@ -25,24 +25,34 @@
     android:layout_height="match_parent">
 
     <View
-        android:id="@+id/view_back"
+        android:id="@+id/view_back1"
         android:background="@color/green"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.25"
         android:layout_width="0dp"
         android:layout_height="0dp" />
 
     <View
         android:id="@+id/view_front"
         android:background="@color/red"
-        app:layout_constraintStart_toStartOf="@+id/view_back"
-        app:layout_constraintTop_toTopOf="@+id/view_back"
-        app:layout_constraintEnd_toEndOf="@+id/view_back"
-        app:layout_constraintBottom_toBottomOf="@+id/view_back"
+        app:layout_constraintStart_toStartOf="@+id/view_back1"
+        app:layout_constraintTop_toBottomOf="@+id/view_back1"
+        app:layout_constraintEnd_toEndOf="@+id/view_back1"
+        app:layout_constraintBottom_toTopOf="@+id/view_back2"
         android:layout_width="0dp"
         app:layout_constraintHeight_percent="0.5"
+        android:layout_height="0dp" />
+        
+        <View
+        android:id="@+id/view_back2"
+        android:background="@color/green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.25"
+        android:layout_width="0dp"
         android:layout_height="0dp" />
 
 </android.support.constraint.ConstraintLayout>

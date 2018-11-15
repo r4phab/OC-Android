@@ -1,10 +1,3 @@
-package com.vincler.jf.exercisesoop;
-
-        import android.sax.StartElementListener;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.util.Log;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
 ------------------------------------------------------------------------------------
 
-package com.vincler.jf.exercisesoop;
-
-import android.util.Log;
-
 public class Car {
     String name;
     String color;
@@ -50,8 +39,6 @@ public class Car {
 }
 
 ------------------------------------------------------------------------------------
-
-package com.vincler.jf.exercisesoop;
 
 public class CarBrand {
     String name;

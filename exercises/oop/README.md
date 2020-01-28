@@ -8,14 +8,19 @@
 
 1 - Créer une classe CarBrand (marque de voiture) avec les attributs suivants :
 
-```
 • name (String)
 • address (String)
 ```
 
 ```
 Répondre ici
-```
+
+
+public class CarBrand{
+
+	private String name;
+	private String address;
+}
 
 2 -  Créer une classe Car (voiture) avec les attributs suivants :
 
@@ -28,13 +33,33 @@ Répondre ici
 
 ```
 Répondre ici
-```
+
+public class Car {
+	private String name;
+	private String color;
+	private int kilometers;
+	private CarBrand brand;
+}
 
 3 - Créer un constructeur pour les 2 classes qui initialise toutes les propriétés de la classe.
 
 ```
 Répondre ici
-```
+ 
+ public CarBrand (String name, String address){
+
+ 	this.name = name;
+ 	this.adress = address;
+ }
+
+public Car(String name, String color, int kilometers, CarBrand brand){
+
+    this.name =name;
+    this.color = color;
+    this.kilometers = kilometers;
+    this.brand = brand;
+
+}
 
 4 - Créer 2 objets "marque de voitures" (Renault et Citroën).
 

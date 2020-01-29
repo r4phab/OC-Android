@@ -52,6 +52,10 @@ Répondre ici
  	this.adress = address;
  }
 
+ public CarBrand(String name) {
+        this.name = name;
+    }
+
 public Car(String name, String color, int kilometers, CarBrand brand){
 
     this.name =name;
@@ -61,11 +65,15 @@ public Car(String name, String color, int kilometers, CarBrand brand){
 
 }
 
+  public Car(String name) {
+        this.name = name;
+    }
+
 4 - Créer 2 objets "marque de voitures" (Renault et Citroën).
 
-```
+
 Répondre ici
-```
+...
 
 5 - Créer 3 objets "voiture" (Clio, Twingo et Saxo) avec leurs marques associées.
 

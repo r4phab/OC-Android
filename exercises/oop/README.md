@@ -79,7 +79,10 @@ Répondre ici
 
 ```
 Répondre ici
-```
+
+        Voiture clio = new Voiture("Clio");
+        Voiture twingo = new Voiture("Twingo");
+        Voiture saxo = new Voiture("Saxo");
 
 6 - Ajouter 1 méthode "start" sur la classe "Car" qui affiche le nom de la voiture et "vrooom" dans la console.
 

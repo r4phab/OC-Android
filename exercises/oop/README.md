@@ -34,7 +34,7 @@ public class CarBrand{
 ```
 Répondre ici
 
-public class Car {
+public abstract class  Car {
 	private String name;
 	private String color;
 	private int kilometers;
@@ -88,7 +88,8 @@ Répondre ici
 
 ```
 Répondre ici
-```
+
+protected abstract void star();
 
 7 - Appeler la méthode "start" sur la Clio et la Twingo.
 

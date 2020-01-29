@@ -95,11 +95,19 @@ protected abstract void star();
 
 ```
 Répondre ici
-```
+
+ @Override
+    protected void star() {
+        System.out.println(this.getName()+ " Vroom!!");
+    }
 
 8 - Le programme doit afficher "Clio vrooom" et "Twingo vrooom" dans la console.
 
 ```
 Répondre ici
-```
+
+        clio.star();
+        twingo.star();
+        saxo.star();
+
 

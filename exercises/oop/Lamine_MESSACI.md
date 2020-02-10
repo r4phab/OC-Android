@@ -4,47 +4,39 @@
 
 ## Cet exercice a pour but la maitrise des bases de la programmation objet en JAVA
 
-### Ennoncé :
+### EnnoncÃ© :
 
-1 - Créer une classe CarBrand (marque de voiture) avec les attributs suivants :
+1 - CrÃ©er une classe CarBrand (marque de voiture) avec les attributs suivants :
 
-• name (String)
-• address (String)
+â€¢ name (String)
+â€¢ address (String)
+
 ```
-
-```
-Répondre ici
-
-
 public class CarBrand{
 
 	private String name;
 	private String address;
 }
-
-2 -  Créer une classe Car (voiture) avec les attributs suivants :
-
-```
-• name (String)
-• color (String)
-• kilometers (int)
-• brand (CarBrand)
 ```
 
-```
-Répondre ici
+2 -  CrÃ©er une classe Car (voiture) avec les attributs suivants :
+â€¢ name (String)
+â€¢ color (String)
+â€¢ kilometers (int)
+â€¢ brand (CarBrand)
 
+```
 public abstract class  Car {
 	private String name;
 	private String color;
 	private int kilometers;
 	private CarBrand brand;
 }
-
-3 - Créer un constructeur pour les 2 classes qui initialise toutes les propriétés de la classe.
-
 ```
-Répondre ici
+
+3 - CrÃ©er un constructeur pour les 2 classes qui initialise toutes les propriÃ©tÃ©s de la classe.
+
+RÃ©pondre ici
  
  public CarBrand (String name, String address){
 
@@ -69,32 +61,32 @@ public Car(String name, String color, int kilometers, CarBrand brand){
         this.name = name;
     }
 
-4 - Créer 2 objets "marque de voitures" (Renault et Citroën).
+4 - CrÃ©er 2 objets "marque de voitures" (Renault et CitroÃ«n).
 
 
-Répondre ici
+RÃ©pondre ici
 ...
 
-5 - Créer 3 objets "voiture" (Clio, Twingo et Saxo) avec leurs marques associées.
+5 - CrÃ©er 3 objets "voiture" (Clio, Twingo et Saxo) avec leurs marques associÃ©es.
 
 ```
-Répondre ici
+RÃ©pondre ici
 
         Voiture clio = new Voiture("Clio");
         Voiture twingo = new Voiture("Twingo");
         Voiture saxo = new Voiture("Saxo");
 
-6 - Ajouter 1 méthode "start" sur la classe "Car" qui affiche le nom de la voiture et "vrooom" dans la console.
+6 - Ajouter 1 mÃ©thode "start" sur la classe "Car" qui affiche le nom de la voiture et "vrooom" dans la console.
 
 ```
-Répondre ici
+RÃ©pondre ici
 
 protected abstract void star();
 
-7 - Appeler la méthode "start" sur la Clio et la Twingo.
+7 - Appeler la mÃ©thode "start" sur la Clio et la Twingo.
 
 ```
-Répondre ici
+RÃ©pondre ici
 
  @Override
     protected void star() {
@@ -104,7 +96,7 @@ Répondre ici
 8 - Le programme doit afficher "Clio vrooom" et "Twingo vrooom" dans la console.
 
 ```
-Répondre ici
+RÃ©pondre ici
 
         clio.star();
         twingo.star();

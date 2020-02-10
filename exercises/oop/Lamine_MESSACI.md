@@ -36,8 +36,8 @@ public abstract class  Car {
 
 3 - Créer un constructeur pour les 2 classes qui initialise toutes les propriétés de la classe.
 
-Répondre ici
- 
+
+ ```
  public CarBrand (String name, String address){
 
  	this.name = name;
@@ -47,6 +47,7 @@ Répondre ici
  public CarBrand(String name) {
         this.name = name;
     }
+      
 
 public Car(String name, String color, int kilometers, CarBrand brand){
 
@@ -60,46 +61,48 @@ public Car(String name, String color, int kilometers, CarBrand brand){
   public Car(String name) {
         this.name = name;
     }
+    
+ ```
 
 4 - Créer 2 objets "marque de voitures" (Renault et Citroën).
 
+```
+CarBrand carBrand = new CarBrand("Renault");
+CarBrand carBrand = new CarBrand("Citroên");
 
-Répondre ici
-...
+```
 
 5 - Créer 3 objets "voiture" (Clio, Twingo et Saxo) avec leurs marques associées.
 
-```
-Répondre ici
 
+```
         Voiture clio = new Voiture("Clio");
         Voiture twingo = new Voiture("Twingo");
-        Voiture saxo = new Voiture("Saxo");
-
+        Voiture saxo = new Voiture("Saxo");	
+```
 6 - Ajouter 1 méthode "start" sur la classe "Car" qui affiche le nom de la voiture et "vrooom" dans la console.
 
 ```
-Répondre ici
-
 protected abstract void star();
+```
 
 7 - Appeler la méthode "start" sur la Clio et la Twingo.
 
 ```
-Répondre ici
-
  @Override
     protected void star() {
         System.out.println(this.getName()+ " Vroom!!");
     }
+ ```   
 
 8 - Le programme doit afficher "Clio vrooom" et "Twingo vrooom" dans la console.
 
 ```
-Répondre ici
 
         clio.star();
         twingo.star();
         saxo.star();
+```	
+	
 
 

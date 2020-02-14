@@ -1,4 +1,4 @@
-# [Exercises] OOP_Lamine MESSACI
+﻿# [Exercises] OOP_Lamine MESSACI
 
 <img src="../../art/oclogo.png" alt="drawing" width="150"/>
 
@@ -38,37 +38,26 @@ public abstract class  Car {
 
 
  ```
- public CarBrand (String name, String address){
-
- 	this.name = name;
- 	this.adress = address;
- }
-
- public CarBrand(String name) {
+   public CarBrand(String name) {
         this.name = name;
+        this.address = setAddress(address);
     }
+
       
-
-public Car(String name, String color, int kilometers, CarBrand brand){
-
-    this.name =name;
-    this.color = color;
-    this.kilometers = kilometers;
-    this.brand = brand;
-
-}
-
   public Car(String name) {
         this.name = name;
+        this.color = setColor(color);
+        this.kilometers = setKilometers(kilometers);
+        this.brand = setBrand(brand);
     }
-    
+   
  ```
 
 4 - Créer 2 objets "marque de voitures" (Renault et Citroën).
 
 ```
-CarBrand carBrand = new CarBrand("Renault");
-CarBrand carBrand = new CarBrand("Citroên");
+ CarBrand marqueDeVoiture = new CarBrand("Renault");
+ CarBrand marqueDeVoiture1 = new CarBrand("Citroën");
 
 ```
 
@@ -77,32 +66,40 @@ CarBrand carBrand = new CarBrand("Citroên");
 
 ```
         Voiture clio = new Voiture("Clio");
+        clio.setBrand(new CarBrand("Renault"));
+        
         Voiture twingo = new Voiture("Twingo");
-        Voiture saxo = new Voiture("Saxo");	
+        twingo.setBrand(new CarBrand("Renault"));
+        
+        Voiture saxo = new Voiture("Saxo");
+        clio.setBrand(new CarBrand("Citroên"));
+	
 ```
 6 - Ajouter 1 méthode "start" sur la classe "Car" qui affiche le nom de la voiture et "vrooom" dans la console.
 
 ```
-protected abstract void star();
+protected abstract void star();// dans la class Car
+
+
+// dans la class Voiture qui hérite de la class Car et On transforme Car a une class abstract
+
+ @Override 
+    protected void star() {
+        System.out.println(this.getName()+ " Vroom!!");
+    }
+
 ```
 
 7 - Appeler la méthode "start" sur la Clio et la Twingo.
 
 ```
- @Override
-    protected void star() {
-        System.out.println(this.getName()+ " Vroom!!");
-    }
+ clio.start();
+ twingo.start();
+
  ```   
 
 8 - Le programme doit afficher "Clio vrooom" et "Twingo vrooom" dans la console.
 
-```
-
-        clio.star();
-        twingo.star();
-        saxo.star();
-```	
 	
 
 
